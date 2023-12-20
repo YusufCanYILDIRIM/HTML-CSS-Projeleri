@@ -1,0 +1,23 @@
+.icon-bar {
+    width: 90px;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a:hover {
+    background-color: red;
+    transition: all 0.2s ease;
+}
+
+* {
+    font-size: 50px;
+    color: white;
+    
+}
+
+.icon-bar a {
+    display: block; 
+    /*dikeyde ortalamak için bu kodu kullanıyoruz*/
+    padding: 16px;
+    text-align: center;
+}
